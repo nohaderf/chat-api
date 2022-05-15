@@ -8,6 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 @EqualsAndHashCode
+@Builder
 public class Message {
 
     private String senderName;
